@@ -67,6 +67,11 @@ This project presents a comprehensive analysis of the US Accidents dataset, expl
 
 *This correlation heatmap reveals the relationships between different traffic and environmental features in the dataset. It helps identify which factors are most strongly associated with accident occurrences and provides insights for predictive modeling.*
 
+#### Accident Distribution by State
+![US Accidents by State](us_accident_by_state.png)
+
+*This visualization shows the geographical distribution of accidents across different US states, highlighting regional variations in accident frequency and identifying high-risk areas that require targeted safety interventions.*
+
 ### 🚦 Traffic Features Analysis
 - **Traffic Signals**: Strong correlation with accident frequency
 - **Traffic Calming**: High correlation with accident occurrences
@@ -78,85 +83,6 @@ This project presents a comprehensive analysis of the US Accidents dataset, expl
 - **Correlation Patterns**: Multiple high correlations identified between traffic features
 - **Imbalanced Data**: Some features show significant imbalances requiring careful interpretation
 - **Missing Data**: Strategic handling of missing values for robust analysis
-
-## 🛠️ Technical Implementation
-
-### Libraries Used
-- **Data Analysis**: pandas, numpy
-- **Visualization**: matplotlib, seaborn
-- **Data Profiling**: pandas-profiling
-- **Data Loading**: kagglehub
-
-### Analysis Workflow
-1. **Data Loading**: Direct access to Kaggle dataset
-2. **Initial Exploration**: Comprehensive data profiling
-3. **Feature Analysis**: Correlation and distribution analysis
-4. **Temporal Analysis**: Time-based pattern identification
-5. **Geographical Analysis**: Location-based insights
-6. **Statistical Modeling**: Advanced statistical techniques
-
-## 📋 Key Insights Summary
-
-### 🎯 Primary Findings
-1. **Commute Impact**: Rush hour traffic significantly increases accident risk
-2. **Geographical Hotspots**: Coastal areas show higher accident rates
-3. **Infrastructure Correlation**: Traffic signals and calming measures correlate with accidents
-4. **Weather Influence**: Temperature and wind conditions affect accident patterns
-5. **Urban vs Rural**: Clear distinction in accident patterns between different city sizes
-
-### 🚨 Safety Implications
-- **Peak Hours**: Need for enhanced safety measures during commute times
-- **High-Risk Areas**: Focus on infrastructure improvements in identified hotspots
-- **Weather Awareness**: Better weather-related safety protocols
-- **Infrastructure**: Strategic placement of traffic calming measures
-
-## 📁 Project Structure
-
-```
-Exploring-Road-Safety-A-Deep-Dive-into-the-US-Accidents-Dataset/
-├── Analysis_file.ipynb          # Main analysis notebook
-└── README.md                    # Project documentation
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.7+
-- Jupyter Notebook
-- Required libraries: pandas, numpy, matplotlib, seaborn, kagglehub
-
-### Installation
-```bash
-pip install pandas numpy matplotlib seaborn kagglehub
-```
-
-### Running the Analysis
-1. Open `Analysis_file.ipynb` in Jupyter Notebook
-2. Ensure you have access to the Kaggle dataset
-3. Run all cells to reproduce the analysis
-
-## 📊 Data Sources
-
-- **Primary Dataset**: US Accidents Dataset from Kaggle
-- **Data Provider**: Sobhan Moosavi
-- **Coverage**: United States traffic accidents
-- **Time Span**: 6 years of comprehensive accident data
-
-## 🤝 Contributing
-
-This project is open for contributions and improvements. Feel free to:
-- Suggest additional analysis approaches
-- Improve visualizations
-- Add new insights or findings
-- Enhance documentation
-
-## 📄 License
-
-This project is for educational and research purposes. Please ensure proper attribution when using the analysis or insights.
-
-## 📞 Contact
-
-For questions or collaboration opportunities, please reach out through the project repository.
 
 ---
 
